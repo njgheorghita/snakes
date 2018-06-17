@@ -1,0 +1,10 @@
+django>=1.11
+dj-database-url
+gunicorn
+django-configurations
+django-heroku
+requests
+psycopg2
+pytest
+pytest-django
+pytest-cov

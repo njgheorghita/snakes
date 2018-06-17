@@ -1,0 +1,51 @@
+{% load static %}
+<header>
+	<img src="{% static 'snakes/images/snek.png' %}" class="snek snek1"/>
+	<h1>snake charmers</h1>
+	<h3> python tooling for the ethereum ecosystem</h3>
+	<img src="{% static 'snakes/images/snek.png' %}" class="snek snek2"/>
+</header>
+
+<link rel="stylesheet" type="text/css" href="{% static 'snakes/style.css' %}" />
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+<div class="repos">
+	{{ images }}
+	{% if eth_repos %}
+		{% for repo in eth_repos %}
+			<h2 class="name">
+				{{ repo.name }}
+				<div class="links">
+					{% if repo.github %}
+						<a href="{{ repo.github}}" target="blank">
+							<img src="{% static 'snakes/images/github.png' %}">
+						</a>
+					{% endif %}
+					{% if repo.gitter %}
+						<a href="{{ repo.gitter}}" target="blank">
+							<img src="{% static 'snakes/images/gitter.png' %}">
+						</a>
+					{% endif %}
+					{% if repo.docs %}
+						<a href="{{ repo.docs}}" target="blank">
+							<img src="{% static 'snakes/images/docs.png' %}">
+						</a>
+					{% endif %}
+				</div>
+			</h2>
+			<h3 class="description">{{ repo.description }}</h3>
+		{% endfor %}
+	{% else %}
+		<p> NO REPOS AVAILABLE </p>
+	{% endif %}
+</div>
+
+
+<div id="container">
+	<h3 style="text-align:center;"> newest pictures from pr's to snakecharmer repos </h3>
+	{% for img in pr_images %}
+		<img src="{{img}}" class='box'>
+	{% endfor %}
+	<span class="stretch"></span>
+</div>

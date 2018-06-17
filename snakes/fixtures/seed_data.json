@@ -1,0 +1,222 @@
+[
+  {
+    "model":"snakes.repo",
+    "pk":1,
+    "fields":{
+      "name":"py-evm",
+	  "description": "Implementation of the Ethereum Virtual Machine (also contains the Trinity client).",
+      "docs": "http://py-evm.readthedocs.io/en/latest/",
+      "github": "https://github.com/ethereum/py-evm/",
+      "gitter": "https://gitter.im/ethereum/py-evm"
+	}
+  },
+  {
+    "model":"snakes.repo",
+    "pk":2,
+    "fields":{
+      "name":"web3.py",
+	  "description": "Interface for interacting with the Ethereum blockchain and ecosystem.",
+      "docs": "http://web3py.readthedocs.io",
+      "github": "https://github.com/ethereum/web3.py/",
+      "gitter": "https://gitter.im/ethereum/web3.py"
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":3,
+    "fields":{
+      "name":"eth-tester",
+	  "description": "Tool suite for testing Ethereum based applications.",
+      "docs": "",
+      "github": "https://github.com/ethereum/eth-tester/",
+      "gitter": "https://gitter.im/ethereum/eth-tester"
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":4,
+    "fields":{
+      "name":"py-trie",
+	  "description": "Library which implements the Ethereum Trie structure.",
+      "docs": "",
+      "github": "https://github.com/ethereum/py-trie/",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":5,
+    "fields":{
+      "name":"eth-utils",
+	  "description": "Utility functions for working with Ethereum related codebases.",
+      "docs": "",
+      "github": "https://github.com/ethereum/eth-utils/",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":6,
+    "fields":{
+      "name":"eth-bloom",
+	  "description": "Implementation of the Ethereum bloom filter.",
+      "docs": "",
+      "github": "https://github.com/ethereum/eth-bloom",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":7,
+    "fields":{
+      "name":"eth-abi",
+	  "description": "Ethereum ABI utilities.",
+      "docs": "https://eth-abi.readthedocs.io/en/latest/",
+      "github": "https://github.com/ethereum/eth-abi",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":8,
+    "fields":{
+      "name":"eth-account",
+	  "description": "Sign Ethereum transactions and messages with local private keys.",
+      "docs": "documentation on ReadTheDocs",
+      "github": "https://github.com/ethereum/eth-account",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":9,
+    "fields":{
+      "name":"eth-hash",
+	  "description": "The Ethereum hashing function, keccak256, sometimes (erroneously) called sha256 or sha3.",
+      "docs": "",
+      "github": "https://github.com/ethereum/eth-hash",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":10,
+    "fields":{
+      "name":"pyrlp",
+	  "description": "Implementation of Recursive Length Prefix encoding (RLP).",
+      "docs": "http://pyrlp.readthedocs.io/en/latest/",
+      "github": "https://github.com/ethereum/pyrlp",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":11,
+    "fields":{
+      "name":"py-ethpm",
+	  "description": "Implementation of the Ethereum Package Management spec.",
+      "docs": "",
+      "github": "https://github.com/ethpm/py-ethpm",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":12,
+    "fields":{
+      "name":"populus",
+	  "description": "Development framework for Ethereum smart contracts.",
+      "docs": "http://populus.readthedocs.io/en/latest/",
+      "github": "https://github.com/ethereum/populus",
+      "gitter": "https://gitter.im/ethereum/populus"
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":13,
+    "fields":{
+      "name":"eth-keys",
+	  "description": "A common API for Ethereum key operations.",
+      "docs": "",
+      "github": "https://github.com/ethereum/eth-keys",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":14,
+    "fields":{
+      "name":"eth-keyfile",
+	  "description": "Tools for handling the encrypted keyfile format used to store private keys.",
+      "docs": "",
+      "github": "https://github.com/ethereum/eth-keyfile",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":15,
+    "fields":{
+      "name":"py-ecc",
+	  "description": "",
+      "docs": "",
+      "github": "",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":16,
+    "fields":{
+      "name":"py-geth",
+	  "description": "Wrapper for running Go-Ethereum as a subprocess (to be deprecated).",
+      "docs": "",
+      "github": "https://github.com/ethereum/py-geth/",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":17,
+    "fields":{
+      "name":"py-solc",
+	  "description": "Wrapper around the solc Solidity compiler (to be deprecated).",
+      "docs": "",
+      "github": "https://github.com/ethereum/py-solc",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":18,
+    "fields":{
+      "name":"eth-typing",
+	  "description": "Python types for type hinting commonly used ethereum types.",
+      "docs": "https://eth-typing.readthedocs.io/",
+      "github": "https://github.com/ethereum/eth-typing",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":19,
+    "fields":{
+      "name":"eth-typeshed",
+	  "description": "",
+      "docs": "",
+      "github": "https://github.com/ethereum/eth-typeshed",
+      "gitter": ""
+    }
+  },
+  {
+    "model":"snakes.repo",
+    "pk":20,
+    "fields":{
+      "name":"vyper",
+	  "description": "Experimental, contract-oriented, pythonic programming language that targets the Ethereum Virtual Machine (EVM).",
+      "docs": "https://vyper.readthedocs.io/en/latest/index.html",
+      "github": "https://github.com/ethereum/vyper",
+      "gitter": "https://gitter.im/ethereum/vyper"
+    }
+  }
+]
