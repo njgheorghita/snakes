@@ -28,7 +28,12 @@ SECRET_KEY = 'hq-jg5q$92*%!3a)$ryq-!68hb_%f@()t@kpiy)9c#jko%z0!('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['evening-ravine-24978.herokuapp.com']
+ALLOWED_HOSTS = [
+    'py-eth.com',
+    'www.py-eth.com',
+    'evening-ravine-24978.herokuapp.com',
+    'localhost',
+]
 
 
 # Application definition
@@ -81,9 +86,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'snakes',
-        'USE': 'snakecharmer',
-        'HOST': '',
-        'PORT': '',
+	# 'USER': 'snakecharmer',
+	'HOST': 'localhost',
+	'PORT': '5432',
     }
 }
 

@@ -25,27 +25,38 @@
     "model":"snakes.repo",
     "pk":3,
     "fields":{
-      "name":"eth-tester",
-	  "description": "Tool suite for testing Ethereum based applications.",
-      "docs": "",
-      "github": "https://github.com/ethereum/eth-tester/",
-      "gitter": "https://gitter.im/ethereum/eth-tester"
+      "name":"populus",
+	  "description": "Development framework for Ethereum smart contracts.",
+      "docs": "http://populus.readthedocs.io/en/latest/",
+      "github": "https://github.com/ethereum/populus",
+      "gitter": "https://gitter.im/ethereum/populus"
     }
   },
   {
     "model":"snakes.repo",
     "pk":4,
     "fields":{
-      "name":"py-trie",
-	  "description": "Library which implements the Ethereum Trie structure.",
-      "docs": "",
-      "github": "https://github.com/ethereum/py-trie/",
-      "gitter": ""
+      "name":"vyper",
+	  "description": "Experimental, contract-oriented, pythonic programming language that targets the Ethereum Virtual Machine (EVM).",
+      "docs": "https://vyper.readthedocs.io/en/latest/index.html",
+      "github": "https://github.com/ethereum/vyper",
+      "gitter": "https://gitter.im/ethereum/vyper"
     }
   },
   {
     "model":"snakes.repo",
     "pk":5,
+    "fields":{
+      "name":"py-ethpm",
+	  "description": "Implementation of the Ethereum Package Management spec.",
+      "docs": "",
+      "github": "https://github.com/ethpm/py-ethpm",
+      "gitter": ""
+    }
+  },
+    {
+    "model":"snakes.repo",
+    "pk":6,
     "fields":{
       "name":"eth-utils",
 	  "description": "Utility functions for working with Ethereum related codebases.",
@@ -56,7 +67,7 @@
   },
   {
     "model":"snakes.repo",
-    "pk":6,
+    "pk":7,
     "fields":{
       "name":"eth-bloom",
 	  "description": "Implementation of the Ethereum bloom filter.",
@@ -67,7 +78,7 @@
   },
   {
     "model":"snakes.repo",
-    "pk":7,
+    "pk":8,
     "fields":{
       "name":"eth-abi",
 	  "description": "Ethereum ABI utilities.",
@@ -78,7 +89,7 @@
   },
   {
     "model":"snakes.repo",
-    "pk":8,
+    "pk":9,
     "fields":{
       "name":"eth-account",
 	  "description": "Sign Ethereum transactions and messages with local private keys.",
@@ -89,7 +100,7 @@
   },
   {
     "model":"snakes.repo",
-    "pk":9,
+    "pk":10,
     "fields":{
       "name":"eth-hash",
 	  "description": "The Ethereum hashing function, keccak256, sometimes (erroneously) called sha256 or sha3.",
@@ -100,7 +111,7 @@
   },
   {
     "model":"snakes.repo",
-    "pk":10,
+    "pk":11,
     "fields":{
       "name":"pyrlp",
 	  "description": "Implementation of Recursive Length Prefix encoding (RLP).",
@@ -111,29 +122,29 @@
   },
   {
     "model":"snakes.repo",
-    "pk":11,
+    "pk":12,
     "fields":{
-      "name":"py-ethpm",
-	  "description": "Implementation of the Ethereum Package Management spec.",
+      "name":"py-trie",
+	  "description": "Library which implements the Ethereum Trie structure.",
       "docs": "",
-      "github": "https://github.com/ethpm/py-ethpm",
+      "github": "https://github.com/ethereum/py-trie/",
       "gitter": ""
     }
   },
   {
     "model":"snakes.repo",
-    "pk":12,
+    "pk":13,
     "fields":{
-      "name":"populus",
-	  "description": "Development framework for Ethereum smart contracts.",
-      "docs": "http://populus.readthedocs.io/en/latest/",
-      "github": "https://github.com/ethereum/populus",
-      "gitter": "https://gitter.im/ethereum/populus"
+      "name":"eth-tester",
+	  "description": "Tool suite for testing Ethereum based applications.",
+      "docs": "",
+      "github": "https://github.com/ethereum/eth-tester/",
+      "gitter": "https://gitter.im/ethereum/eth-tester"
     }
   },
   {
     "model":"snakes.repo",
-    "pk":13,
+    "pk":14,
     "fields":{
       "name":"eth-keys",
 	  "description": "A common API for Ethereum key operations.",
@@ -144,7 +155,7 @@
   },
   {
     "model":"snakes.repo",
-    "pk":14,
+    "pk":15,
     "fields":{
       "name":"eth-keyfile",
 	  "description": "Tools for handling the encrypted keyfile format used to store private keys.",
@@ -155,21 +166,10 @@
   },
   {
     "model":"snakes.repo",
-    "pk":15,
-    "fields":{
-      "name":"py-ecc",
-	  "description": "",
-      "docs": "",
-      "github": "",
-      "gitter": ""
-    }
-  },
-  {
-    "model":"snakes.repo",
     "pk":16,
     "fields":{
       "name":"py-geth",
-	  "description": "Wrapper for running Go-Ethereum as a subprocess (to be deprecated).",
+	  "description": "Wrapper for running Go-Ethereum as a subprocess.",
       "docs": "",
       "github": "https://github.com/ethereum/py-geth/",
       "gitter": ""
@@ -180,7 +180,7 @@
     "pk":17,
     "fields":{
       "name":"py-solc",
-	  "description": "Wrapper around the solc Solidity compiler (to be deprecated).",
+	  "description": "Wrapper around the solc Solidity compiler.",
       "docs": "",
       "github": "https://github.com/ethereum/py-solc",
       "gitter": ""
@@ -197,26 +197,15 @@
       "gitter": ""
     }
   },
-  {
+    {
     "model":"snakes.repo",
     "pk":19,
     "fields":{
-      "name":"eth-typeshed",
-	  "description": "",
+      "name":"py-ecc",
+	  "description": "Implementation of ECC pairing and bn_128 curve operations.",
       "docs": "",
-      "github": "https://github.com/ethereum/eth-typeshed",
+      "github": "https://github.com/ethereum/py_ecc",
       "gitter": ""
-    }
-  },
-  {
-    "model":"snakes.repo",
-    "pk":20,
-    "fields":{
-      "name":"vyper",
-	  "description": "Experimental, contract-oriented, pythonic programming language that targets the Ethereum Virtual Machine (EVM).",
-      "docs": "https://vyper.readthedocs.io/en/latest/index.html",
-      "github": "https://github.com/ethereum/vyper",
-      "gitter": "https://gitter.im/ethereum/vyper"
     }
   }
 ]

@@ -1,12 +1,13 @@
 import json
 import re
 import requests
+import os
 
 GITHUB_API = 'https://api.github.com/repos/ethereum/py-evm/pulls?state=closed'
 URL_REGEX = "(http(s?):)([/|.|\w|\s|-])*\.(?:jpg)"
 
 def get_five_recent_pictures():
-    params = {}
+    params = {'access_token': os.environ['GITHUB']}
     r = requests.get(GITHUB_API, params=params)
     pics = []
     for pr in r.json():
