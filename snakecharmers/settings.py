@@ -33,6 +33,8 @@ ALLOWED_HOSTS = [
     'www.py-eth.com',
     'evening-ravine-24978.herokuapp.com',
     'localhost',
+    'python.ethereum.org',
+    'ethereum.org',
 ]
 
 
