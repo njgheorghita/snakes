@@ -88,7 +88,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'snakes',
-	# 'USER': 'snakecharmer',
+	'USER': 'snakecharmer',
 	'HOST': 'localhost',
 	'PORT': '5432',
     }
