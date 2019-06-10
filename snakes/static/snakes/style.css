@@ -53,6 +53,7 @@ img:hover {
 }
 
 .box {
+    max-height: none;
     width: 150px;
     height: 125px;
     vertical-align: top;
