@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [
     'localhost',
     'python.ethereum.org',
     'ethereum.org',
+    'py.ethereum.org',
 ]
 
 
