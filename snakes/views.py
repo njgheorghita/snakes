@@ -9,6 +9,6 @@ def index(request):
     template = loader.get_template('snakes/index.html')
     context = {
         'eth_repos': Repo.objects.all(),
-        'pr_images': Repo.five_images(),
+        'recent_caps': Repo.recent_caps(),
     }
     return HttpResponse(template.render(context, request))

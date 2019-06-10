@@ -43,9 +43,9 @@
 
 
 <div id="container">
-	<h3 style="text-align:center;"> newest additions to snakecharmer repos with the most cute animal pictures </h3>
-	{% for img in pr_images %}
-		<img src="{{img}}" class='box'>
+	<h3 style="text-align:center;"> newest additions to snakecharmer repos with the cutest animal pictures || <a href="https://github.com/njgheorghita/snakes" target="blank">source code</a></h3>
+	{% for img, link in recent_caps %}
+		<a href="{{link}}" target="blank"><img src="{{img}}" class='box'></a>
 	{% endfor %}
 	<span class="stretch"></span>
 </div>
