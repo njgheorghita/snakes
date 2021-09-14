@@ -27,7 +27,7 @@ MEDIA_URL = '/media/'
 SECRET_KEY = 'hq-jg5q$92*%!3a)$ryq-!68hb_%f@()t@kpiy)9c#jko%z0!('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'py-eth.com',
@@ -90,7 +90,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'snakes',
-        'USER': 'snakecharmer',
+        'USER': 'nickgheorghita',
 	'HOST': 'localhost',
 	'PORT': '5432',
     }
